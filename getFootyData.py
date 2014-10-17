@@ -80,9 +80,9 @@ def getFootyPointsData(gameweek):
 
     return player_dict
 	
-api = {"apiKey": "VtFfuf2aI5re-aadY6hN3WNUREmIvnob"}
+api = {"apiKey": ""}
 http_start = "https://api.mongolab.com/api/1/"
-http_type = "databases/database1/collections/fantasydata"
+http_type = "databases/{yourdatabase}/collections/{yourcollection}"
 headers = {"Content-Type": "application/json"}
 
 ## Open up the game weeks - we want to collect the data THE DAY BEFORE each scheduled gameweek start date
